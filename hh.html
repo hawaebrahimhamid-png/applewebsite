@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>B Brooklyn</title>
+
+    <style>
+        header {
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px 0;
+        }
+
+        nav a {
+            padding: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        h2,
+        p {
+            text-align: left;
+        }
+
+        div {
+            width: 30%;
+            display: inline-block;
+
+        }
+
+        img {
+            width: 100%;
+            background-color: blue;
+            border-radius: 5px;
+            padding: 20px;
+            float: left;
+        }
+
+        .intro-section {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 40px;
+            width: 100%;
+        }
+
+        aside {
+            width: 40;
+            padding-left: 15px;
+            margin-left: 15px;
+        }
+
+        .stats-container {
+            display: flex;
+            width: 100%;
+            text-align: center;
+            justify-content: space-around;
+        }
+
+        .exp {
+            text-align: left;
+        }
+        .pro{
+            text-align: left;
+        }
+        .hap{
+            text-align: left;
+        }
+        .im{
+            text-align: left;
+        }
+        .i{
+            text-align: left;
+        }
+        .stat-item {
+            background-color: lightgray;
+            padding: 20px;
+            border-radius: 8px;
+            width: 30%;
+        }
+
+        .stat-item h2 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        .stat-item p {
+            margin: 5px 0 0;
+            color: #555;
+        }
+
+        h2,
+        p {
+            text-align: left;
+        }
+
+        .flex-container {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .flex-containertwo {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .div-item {
+            background-color: lightgray;
+            padding: 20px;
+            border-radius: 8px;
+            width: calc(50%-10px);
+            box-sizing: border-box;
+        }
+
+        h1,
+        p {
+            text-align: center;
+
+        }
+
+        .portfolio-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            width: 100%;
+        }
+
+        div.gallery {
+            border: 1px solid #ccc;
+
+            width: 400px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+            text-align: center;
+
+        }
+
+        div.gallery:hover {
+            border: 1px solid 777;
+
+        }
+
+        div.gallery img {
+            width: 50%;
+            height: auto;
+            padding: 0;
+
+            background-color: transparent;
+            border-radius: 0%;
+        }
+
+        .div-itemtwo {
+            background-color: lightgray;
+            padding: 20px;
+            border-radius: 8px;
+
+            box-sizing: border-box;
+            width: 100%;
+
+        }
+
+        div.disc {
+            padding: 15px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .blog-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            width: 100%;
+        }
+
+        .flex-containerone {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            flex-direction: column;
+
+        }
+
+        h6 {
+            text-align: center;
+        }
+
+        footer {
+            background-color: blue;
+        }
+        button{
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button :hover{
+            background-color:darkblue;
+        }
+        .button-container{
+            text-align: center;
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>B Brooklyn</h2>
+    <header>
+        <nav>
+            <button type="button" onclick="myfunction()">home</button>
+            <a href="#about">about</a>
+            <a href="#process">process</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#blog">blog</a>
+            <a href="#service">services</a>
+            <button type="button" onclick="myfunction()">contact</button>
+        </nav>
+    </header>
+
+    <main id="about" class="intro-section">
+        <aside>
+            <h2>hello,i'm <br> Brooklyn gilbert</h2>
+            <p class="im">i'm a freelance UL/UX designer and developer based in london,england.</p>
+            <button type="button" onclick="myfunction()">say hello!</button>
+        </aside>
+        <aside>
+            <img src="img_girl.jpg" alt="girl in a jacket" width="500" height="600">
+        </aside>
+    </main>
+
+    <section  class="stats-container">
+        <div class="stat-item">
+            <h2>15 Y.</h2>
+            <p class="exp">experience.</p>
+        </div>
+        <div class="stat-item">
+            <h2>250+</h2>
+            <p class="pro">project completed</p>
+        </div>
+        <div class="stat-item">
+            <h2>58</h2>
+            <p class="hap">happy clients</p>
+        </div>
+    </section>
+    <section>
+        <hr>
+        <main id="process" class="intro-section">
+            <aside>
+                <img src="img_girl.jpg" alt="girl in a jacket" width="500" height="600">
+            </aside>
+            <aside>
+                <h3>i am professional user<br>experience designer</h3>
+                <p>i design and develop service four customer</p>
+                <p>i design and develop service four customer</p>
+                <button type="button" on click="my function()">my project </button>
+                <button type="button" on click="my function()">download cv</button>
+            </aside>
+        </main>
+    </section>
+    <section>
+        <hr>
+        <main id="process" class="intro-section">
+            <aside>
+                <h2>work proce</h2>
+                <p id="dr">driven by design and powered by code.i creat digital interface....</p>
+                <p id="i">i blend clean design with.....</p>
+            </aside>
+            <aside>
+                <section class="flex-containertwo">
+                    <div class="div-itemtwo">
+                        <h4>1,Research</h4>
+                        <p>design meets function in every... </p>
+                    </div>
+                    <div class="div-itemtwo">
+                        <h4>2,analize</h4>
+                        <p>crafts cleen...</p>
+                    </div>
+                    <div class="div-itemtwo">
+                        <h4>3,design</h4>
+                        <p>i design seemes digital experience...</p>
+                    </div>
+                    <div class="div-itemtwo">
+                        <h4>4,launch</h4>
+                        <p>i craft digital products...</p>
+                    </div>
+                </section>
+            </aside>
+        </main>
+    </section>
+    
+        <hr>
+<section id="portfolio">
+        <h1>portfolio</h1>
+        <p>here's a selection of my recent work</p>
+        <div class="portfolio-grid">
+            <div class="gallery">
+                <img src="img_5terre.jpg">
+                <div class="desc">
+                    <p>ul-ux design</p>
+                    <h5>product admin dashbord</h5>
+                    <p>i focus on crafting smoth...</p>
+<button type="button" on click="myfunction()">case study</button>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="img_forest.jpg">
+                <div class="desc">
+                    <p>ul-ux design</p>
+                    <h5>product admin dashbord</h5>
+                    <p>design an intuitive dashbord...</p>
+                    <button type="button" on click="myfunction()">case study</button>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="img_light.jpg">
+                <div class="desc">
+                    <p>ul-ux design</p>
+                    <h5>product admin dashbord</h5>
+                    <p>developed a modern admin panal</p>
+                    <button type="button" on click="myfunction()">case study</button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="portfolio-grid">
+            <div class="gallery">
+                <img src="img_light.jpg">
+                <div class="desc">
+                    <p>ul-ux design</p>
+                    <h5>product admin dashbord</h5>
+                    <p>created a responsive dashbord...</p>
+                    <button type="button" on click="myfunction()">case study</button>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="img_5terre.jpg">
+                <div class="desc">
+                    <p>ul-ux design</p>
+                    <h5>product admin dashbord</h5>
+                    <p>implemented interactiv chart....</p>
+                    <button type="button" on click="myfunction()">case study</button>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="img_forest.jpg">
+                <div class="desc">
+                    <p>ul-ux design</p>
+                    <h5>product admin dashbord</h5>
+                    <p>enhanced user experience...</p>
+                    <button type="button" on click="myfunction()">case study</button>
+                </div>
+            </div>
+        </div>
+        <div class="button-container">
+        <button type="button" on click="myfunction()">more project</button>
+      </div>
+    </section>
+    <hr>
+    <section>
+
+        <h1>Do you have a project idea?<br>let's discues your project!</h1>
+        <p>i'm always open to discusing new projects and creative ideas.</p>
+        <div class="button-container">
+        <button type="button" onclick="myfunction()">let's work together</button>
+        </div>
+    </section>
+    <hr>
+    <section id="blog">
+
+        <h1>blog</h1>
+        <p>check out my recent blog posts</p>
+        <div class="blog-grid">
+            <div class="gallery">
+                <img src="img_5terre.jpg">
+                <div class="desc">
+                    <p>22 oct,2020/246 comments</p>
+                    <h5>product admin dashbord</h5>
+                    <p>designing engaging user interfaces for M...</p>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="img_forest.jpg">
+                <div class="desc">
+                    <p>22 oct,2020/246 comments</p>
+                    <h5>product admin dashbord</h5>
+                    <p>tips for effective dashbord layouts and...</p>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="img_light.jpg">
+                <div class="desc">
+                    <p>22 oct,2020/246 comments</p>
+                    <h5>product admin dashbord</h5>
+                    <p>how to visualize for better ptoduct...</p>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="img_girl.jpg">
+                <div class="desc">
+                    <p>22 oct,2020/246 comments</p>
+                    <h5>product admin dashbord</h5>
+                    <p>responsive design adapting to all device...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <main id="service" class="intro-section">
+            <aside>
+                <h2> what i do?</h2>
+                <p>i specialize in designing user experience...</p>
+                <p>my approch combines...</p>
+                <button type="button" on click="myfunction()">say hello!</button>
+            </aside>
+            <aside>
+                <section class="flex-containerone">
+                    <div class="div-item">
+                        <h4>user experience(UX)</h4>
+                        <p>i design intuitive and enjoyable experience...</p>
+                    </div>
+                    <br>
+                    <div class="div-item">
+                        <h4>user interface(UI)</h4>
+                        <p>i craft visually appealing and consistant interface</p>
+                    </div>
+                    <br>
+                    <div class="div-item">
+                        <h4>web development</h4>
+                        <p>i build responsive and high performance web application</p>
+                    </div>
+                </section>
+            </aside>
+        </main>
+        <hr>
+        <section>
+            <h1>happy clients</h1>
+            <p>i've had the pleasure of working with advisers</p>
+            <p>amazom medium google</p>
+            <h1>testimonial</h1>
+            <p>working with this team was a fantastic experience</p>
+            <h6>form the intial consulation to the final delivery</h6>
+            <h6>highly recommended!</h6>
+            <h6>esther howard</h6>
+            <p>managing directer.ABC company</p>
+        </section>
+        <hr>
+        <section>
+            <main id="contact" class="intro-section">
+                <aside>
+                    <h2>let's discuss your project</h2>
+                    <p>i'm avilable for freelance work</p>
+                    <p>address</p>
+                    <h6>new mexico,32134</h6>
+                    <p>my email</p>
+                    <h6>mymail@mail.com</h6>
+                    <p>call me now</p>
+                    <h6>00-123 00000</h6>
+                </aside>
+                <aside>
+                    <p>i'm always open to discussing product design work orpartnership opportunities.</p>
+                    <form>
+                        <label for="name">name*</label>
+                            <input type="text" id="name"><br><br>
+                            <label for="email">email*</label>
+                            <input type="email" id="email" name="email"><br><br>
+                            <label for="loc">location*</label>
+                            <input type="location" id="loc"><br><br>
+                            <label for="budg,sub">budget*,subject*</label>
+                            <input type="budget,subject" id="budg,sub"><br><br>
+                            <label for="message">message*</label>
+                            <input type="text" id="message"><br><br>
+                  <button type="button" onclick="myfunction()">submit</button>
+                     </form>
+                </aside>
+            </main>
+        </section>
+        <hr>
+        <section>
+            <footer>
+                <main  class="intro-section">
+                    <aside>
+                        <h2>B Brooklyn</h2>
+                    </aside>
+                    <aside>
+                        <nav>
+                            <p>developed with by themewapon</p>
+
+                            <a href="/home/">home</a>
+                            <a href="/about/">about</a>
+                            <a href="/process/">process</a>
+                            <a href="/portfolio/">portfolio</a>
+                            <a href="/blog/">blog</a>
+                            <a href="/services/">service</a>
+                            <a href="/contact/">contact</a>
+                        </nav>
+                        
+                    </aside>
+                    <aside>
+                        <p>copyright copy& 2025 picto</p>
+                    </aside>
+                </main>
+            </footer>
+        </section>
+</body>
+
+
+
+
+</html>
